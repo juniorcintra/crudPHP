@@ -21,7 +21,7 @@
 	</header>
 	<section class="sec-in">
 		<div class="title-in">
-			<p>Insira os produtos aqui:</p>
+			<p>Atualize as informações aqui:</p>
 		</div>
 		<div class="form-prod">
 			<form method="POST" enctype="multipart/form-data" action="edit_del_produtos.php">
