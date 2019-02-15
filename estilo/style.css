@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+header{
+	background-color: #0088de;
+	height: 60px;
+	color: white;
+	width: 100%;
+}
+
+.title{
+	width: 400px;
+	text-align: center;
+	line-height: 60px;
+	margin: 0 auto;
+}
+
+.sec-in{
+	margin-top: 30px !important;
+	padding: 30px;
+	width: 700px;
+	margin: 0 auto;
+	background-color: #ccc;
+	border-radius: 7px;
+}
+
+.title-in{
+	width: 60%;
+	margin: 0 auto;
+	font-size: 30px;
+	text-align: center;
+}
+
+.form-prod{
+	width: 100%;
+	text-align: center;
+}
+
+.form-prod input[type=text]{
+	width: 80%;
+	height: 25px;
+	padding-left: 10px;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+.form-prod textarea{
+	width: 80%;
+	min-height: 25px;
+	padding-left: 10px;
+	padding-top: 3px;
+	margin: 10px;
+	border-radius: 5px;
+	border: 1px solid black;
+	resize: vertical;
+}
+
+.form-prod input[type=submit]{
+	width: 80px;
+	height: 50px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin: 0 auto;
+	cursor: pointer;
+	display: block;
+}
+
+.sec-list{
+	padding: 30px;
+	width: 700px;
+	margin: 30px auto;
+	background-color: #ccc;
+	border-radius: 7px;
+}
+
+table{
+	margin: 0 auto;
+}
+
+.acao_produto{
+	border: 1px solid white;
+}
+
+.table-tile, .acao_produto, .id_produto, .nome_produto, .foto_produto, .descricao_produto{
+	text-align: center;
+	border: 1px solid white;
+	padding: 0 10px;
+}
+
+.foto_produto img{
+	max-width: 70px;
+	border-radius: 10px;
+}
+
+
+footer{
+	background-color: #0088de;
+	height: 60px;
+	color: white;
+	width: 100%;
+}
+
+.footer{
+	width: 400px;
+	text-align: center;
+	line-height: 60px;
+	margin: 0 auto;
+}
+
+.btn-edit{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
